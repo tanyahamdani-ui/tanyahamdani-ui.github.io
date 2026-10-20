@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hamdani Nur Arifin — CV</title>
+<style>
+@page{size:A4;margin:10mm 13mm}
+*{box-sizing:border-box}
+body{margin:0;font:9.3pt/1.36 Helvetica,Arial,sans-serif;color:#141414}
+h1{font-size:20pt;margin:0;letter-spacing:-.01em}
+.role{font-size:10.5pt;color:#333;margin:2px 0 4px}
+.kontak{font-size:9pt;color:#444}
+.kontak a{color:#1d4ed8;text-decoration:none}
+h2{font-size:9pt;letter-spacing:.12em;text-transform:uppercase;color:#1d4ed8;border-bottom:1px solid #d4d4d8;padding-bottom:3px;margin:9px 0 5px}
+.item{margin-bottom:6px}
+.kepala{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.kepala b{font-size:10.5pt}
+.kepala span{font-size:9pt;color:#555;white-space:nowrap}
+.sub{font-size:9pt;color:#555;margin:1px 0 3px}
+ul{margin:2px 0 0;padding-left:15px}
+li{margin:1px 0}
+p{margin:0}
+.skill b{display:inline-block;min-width:118px}
+</style>
+</head>
+<body>
+<h1>Hamdani Nur Arifin</h1>
+<div class="role">AI / Automation Engineer · 10+ years telecom network operations</div>
+<div class="kontak">Jakarta, Indonesia (UTC+7) · Open to remote · <a href="mailto:dani@kelolain.biz.id">dani@kelolain.biz.id</a> · <a href="https://tanyahamdani-ui.github.io">tanyahamdani-ui.github.io</a> · <a href="https://www.linkedin.com/in/hamdani-nur-arifin-b8b827174/">linkedin.com/in/hamdani-nur-arifin-b8b827174</a> · <a href="https://github.com/tanyahamdani-ui">github.com/tanyahamdani-ui</a></div>
+
+<h2>Summary</h2>
+<p>Network operations engineer with 10+ years keeping a production telecom network running, who builds and runs LLM-powered products and automation systems for his own businesses. Comfortable owning a system end to end: database, server functions, OAuth integrations, AI features, deployment and monitoring. Treats automation as something that must be verified and fail loudly.</p>
+
+<h2>Projects</h2>
+<div class="item">
+  <div class="kepala"><b>Kelola.in — Founder &amp; sole engineer</b><span>2026 – present · kelolain.biz.id</span></div>
+  <div class="sub">SaaS for small Indonesian online sellers: content planning, AI-generated content, sales and profit tracking.</div>
+  <ul>
+    <li>Built a vanilla JavaScript PWA (56 modules, ~18k lines, ~240 commits) on Supabase: Postgres with Row Level Security, Google Auth, Storage, and 21 Edge Functions in Deno/TypeScript; hosted on Cloudflare Workers with auto-deploy.</li>
+    <li>AI "Studio": generates batches of posts (title, caption, hashtags), renders on-brand images in the browser with Canvas, swipe-to-approve into a content calendar.</li>
+    <li>Server-side LLM proxy (Gemini, with a Claude path) with per-user/per-IP quotas, model fallback and output validation with retries, so users need no API keys.</li>
+    <li>OAuth integrations for Instagram (Facebook Login for Business), Threads and TikTok; tokens encrypted at rest (AES-GCM) and never exposed to the browser; comment inbox with AI-suggested replies; Midtrans payments.</li>
+    <li>Growth funnel: onboarding that generates a visitor's first 3 posts before signup, plus free SEO tools feeding it.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="kepala"><b>SCNTR — Marketing automation for my perfume brand</b><span>2026 – present</span></div>
+  <ul>
+    <li>~150 Node.js scripts (~21.6k lines) and 46 scheduled jobs (macOS launchd) running daily marketing operations.</li>
+    <li>Scheduled TikTok/Instagram uploads via headless Chrome over the Chrome DevTools Protocol, with per-item restarts and post-upload verification.</li>
+    <li>Daily giveaway pipeline (text-to-video, scheduling, random winner selection), stock/order monitoring, Telegram reports, and a watchdog job that reports failing jobs.</li>
+    <li>Orchestrates several AI coding agents through a task queue with written guardrails and output review.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="kepala"><b>Lead intake workflow (n8n)</b><span>Portfolio demo</span></div>
+  <p>Webhook intake that normalizes and validates leads, assigns stable IDs, returns clear HTTP errors, and keeps credentials out of the workflow file.</p>
+</div>
+
+<h2>Experience</h2>
+<div class="item">
+  <div class="kepala"><b>Network Operations (NOC) Engineer</b><span>2012 – present</span></div>
+  <div class="sub">Telecommunications company · Jakarta</div>
+  <ul>
+    <li>Monitored and troubleshot a production telecom network: alarm handling, fault isolation, and coordination with field teams until service restoration.</li>
+    <li>Built small internal tools for routine checks: scripted reports for optical power levels and interface error counters, and an inventory tracker for optical modules.</li>
+    <li>Tested configurations in network lab simulation before production changes.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<p><b>Diploma (D3), Informatics Engineering</b> · Indonesia</p>
+
+<h2>Skills</h2>
+<p class="skill"><b>Languages</b> JavaScript, TypeScript, SQL, shell</p>
+<p class="skill"><b>Backend &amp; infra</b> Node.js, Deno, Supabase/Postgres (RLS), Cloudflare Workers, REST APIs, webhooks, launchd/cron</p>
+<p class="skill"><b>AI</b> LLM integration (Gemini, Claude), prompt design, structured output validation, AI agent orchestration</p>
+<p class="skill"><b>Automation</b> n8n, browser automation (Chrome DevTools Protocol), Telegram bots, OAuth (Meta Graph, Threads, TikTok)</p>
+<p class="skill"><b>Networking</b> Network operations, troubleshooting, incident handling, optical/interface monitoring</p>
+<p class="skill"><b>Languages spoken</b> Indonesian (native), English (working)</p>
+</body>
+</html>

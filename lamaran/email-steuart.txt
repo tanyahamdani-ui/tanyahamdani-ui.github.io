@@ -1,0 +1,23 @@
+Kepada: careers@steuartnutrition.com
+Subjek: Software Developer AI Coding - Hamdani Nur Arifin
+Lampiran: CV-Hamdani-Nur-Arifin.pdf (ada di Desktop/portfolio-hamdani)
+
+----- isi email (salin dari sini) -----
+
+Hello Steuart Nutrition team,
+
+I'm applying for the Software Developer AI Coding role I saw on We Work Remotely. I'm based in Jakarta (UTC+7) and can overlap at least 4 hours a day with US Eastern Time, working in my evening. My CV is attached.
+
+My software experience comes from building and running my own products rather than a formal engineering title. Three examples that match your description:
+
+- Kelola.in: a SaaS I built and run alone. It is a vanilla JavaScript PWA on Supabase (Postgres with Row Level Security, 21 Deno/TypeScript Edge Functions) with AI content generation, OAuth integrations and Midtrans payments.
+- SCNTR automation: about 150 Node.js scripts and 46 scheduled jobs that run daily marketing operations. I also direct several AI coding agents through a task queue with written guardrails and review their output before it ships.
+- Five-plus years in telecom network operations, where I learned to turn rough requests from field teams into small tools, such as scripted reports and an inventory tracker, and to document them.
+
+AI-assisted development is how I work every day, and I treat generated code as something to check and verify, not trust.
+
+Portfolio: https://tanyahamdani-ui.github.io
+Email: dani@kelolain.biz.id
+
+Thank you,
+Hamdani Nur Arifin
